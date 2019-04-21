@@ -271,6 +271,10 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
     padding-left: 20px;
 }
 
+#details  .news-content button {
+  margin-top: --8px;
+}
+ 
  #team h1, #team h3{
   color: blue;
   text-transform: uppercase;
@@ -385,10 +389,6 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
   color: white;
 }
 
-.join-newsletter {
-    position: relative;
-    width: 100%;
-}
 
 
 .input-group {
@@ -541,7 +541,6 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
     margin-top: -7px;
     margin-left: -45px;
   }
- 
 
    .infos {
     
