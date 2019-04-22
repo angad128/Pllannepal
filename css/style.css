@@ -179,7 +179,7 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
 
 #details .news-box {
   border: 1px solid #cec2c2;
-  max-height: 530px;
+  height: 530px;
   border-radius: 25px;
 }
 
@@ -248,9 +248,15 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
 
  
  #team h1, #team h3{
-  color: blue;
   text-transform: uppercase;
   text-align: center;
+}
+#team h1 {
+  color: blue;
+}
+#team h3 {
+  color: #16bfce;
+  margin-top: -5px;
 }
 #team .team-img {
   position: relative;
