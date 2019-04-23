@@ -174,18 +174,37 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
 }
 
 #details {
-  margin-top: 15px;
+  margin-top: 45px;
+}
+
+
+#details .news-panel {
+  padding: 10px;
+}
+
+.forfaicon i {
+  position: relative;
+  left: 47%;
+  margin-top: -50px;
+  border: none;
+  border-width: thin;
+  background: #015575;
+  border-radius: 50%;
+  font-size: 3rem;
+  color: white;
+  padding: 20px;
+  box-shadow: 3px 1px 5px 3px rgba(0, 0, 0, 0.5);
 }
 
 #details .news-box {
   border: 1px solid #cec2c2;
-  height: 530px;
   border-radius: 25px;
 }
 
 #details .news-box h3 {
     padding-left: 20px;
 }
+
 
 #details  .news-content button {
   margin-top: -8px;
@@ -257,6 +276,7 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
 #team h3 {
   color: #16bfce;
   margin-top: -5px;
+  font-size: 20px;
 }
 #team .team-img {
   position: relative;
@@ -517,12 +537,12 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
   }
   .news-content {
     margin-top: -7px;
-    margin-left: -45px;
   }
 
-  #details .news-box {
-    margin-top: 20px;
+  .news-box {
+    margin-top: 45px;
   }
+
 
    
   .left-links {
@@ -811,7 +831,9 @@ span.icon-bar {
 .address {
     margin: 2em 0;
 }
-
+.contact-grid {
+  margin-top: 25px;
+}
 .contact-grdr ul li a {
     color: rgb(13, 17, 45);
     text-decoration: none;
@@ -957,3 +979,4 @@ span.icon-bar {
 .broken a button {
     color: white;
 }
+

@@ -26,7 +26,7 @@
 			   			
 			   				<ul class="top-ul top-ul-left">
 								<li><p><i class="fas fa-map-marker-alt"></i> Dillibazar</p></li>
-								<li><p><i class="fas fa-phone-volume"></i> call: +977-9841522160 </p></li>
+								<li><p><i class="fas fa-phone-volume"></i> call: +977-01-4445789 </p></li>
 			   				</ul>
 			   					
 			   		</div>
@@ -54,13 +54,18 @@
 			     
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav navbar-left">
-			        <li><a href="index.html">HOME</a></li>
-					<li><a href="about.html">About </a></li>
-					<li><a href="#details">Committee </a></li>
-					<li><a href="#news">News </a></li>
-					<li><a href="#team">BoardMember </a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="contact.html">Contact</a></li>
+			        <li><a class="lang" key="home" href="index.html">Home</a></li>
+					<li><a class="lang" key="about" href="about.html">About </a></li>
+					<li><a class="lang" key="committee" href="#details">Committee </a></li>
+					<li><a class="lang" key="news" href="#news">News </a></li>
+					<li><a class="lang" key="boardmember" href="#team">BoardMember </a></li>
+					<li><a class="lang" key="gallery" href="gallery.html">Gallery</a></li>
+					<li><a  class="lang" key="contact" href="contact.html">Contact</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			      	<p class="text-white text-underline">Check your Language?</p>
+			      	<button class="translate" id="en">English</button>
+    				<button class="translate" id="np">Nepali</button>
 			      </ul>
 			    </div> 
 			</nav>
@@ -92,21 +97,20 @@
 			      </div>
 			      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-contact-links text-white">
 			      	<center>
-			      		<h3>Our Location</h3>
+			      		<h3><span class="lang" key="location">Our Location</span></h3>
 			      		<div class="map-footer">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113057.08357618727!2d85.27882751265581!3d27.685348287058456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x39eb198c8d6a0639%3A0x99903dada8289577!2sTinkune+kathmandu!3m2!1d27.685365899999997!2d85.3488678!5e0!3m2!1sne!2snp!4v1503650828640" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 					    </div>
 			      	</center>
 			      </div>
 			      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-contact-info text-white">   
-					    <h3>Contact Details</h3>
-					      
+					    <h3><span class="lang" key="conatct-details">Contact Details</span></h3>
 					     	<ul class="contact">
-					       		<li><i class="fas fa-map-marker-alt"></i>   Kathmandu, Nepal</li>
-					       		<li><i class="fas fa-phone-volume"></i>   Telephone: +977-01-4445789</li>
-					       		<li><i class="fas fa-phone-volume"></i>  Fax:  +977-01-4412426</li>
-					       		<li>    P.B.No.: +977-01-23264</li>
-					       		<li><i class="fas fa-envelope"></i>   pllannepal2072@gmail.com</li>
+					       		<li><i class="fas fa-map-marker-alt"></i>   <span class="lang" key="place"> Kathmandu, Nepal</span></li>
+					       		<li><i class="fas fa-phone-volume"></i>   <span class="lang" key="telephone"> Telephone: +977-01-4445789</span></li>
+					       		<li><i class="fas fa-phone-volume"></i>   <span class="lang" key="fax"> Fax:  +977-01-4412426</span></li>
+					       		<li>   <span class="lang" key="pbo">P.B.No.: +977-01-23264</span></li>
+					       		<li><i class="fas fa-envelope"></i>   <span> pllannepal2072@gmail.com</span></li>
 					       	</ul>
 			      </div>
 			    </div>	
@@ -133,7 +137,8 @@
   crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
-	
+	 <script src="https://use.fontawesome.com/3b9397b53d.js"></script>
+	<script type="text/javascript" src="js/lang.js"></script>	
 
 </body>
 </html>
