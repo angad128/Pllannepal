@@ -32,7 +32,11 @@ body {
 #header {
    padding:0px;
 }
-
+.navbar .dropdown-menu {
+  background-color:#0d112d;
+  color: #fff;
+  line-height: 30px;
+}
 .navbar, .footer {
    background-color:#0d112d;
    /** #00AEEF; **/
@@ -141,17 +145,12 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
 
 
 #body {  
-  width: 100%;
   margin-top: 10px;
   padding-bottom: 120px;
   /* padding-bottom : Height of the footer with margin+paddinglist-container */
   padding-top: 0;
   padding-right: 0;
   padding-left: 0;
-}
-.top h2 , #events h2,  #team h2, #students h1 {
-  color: #00AEEF;
-  font-weight: 600;
 }
 
 .grow {
@@ -249,11 +248,27 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
   margin: 10px auto 0px auto ;
   background-color: #EFF0F2;
 }
-.team-container {
+
+#team h2,  #team h1,  #team h3 {
+font-family: Catamaran;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+#team h2 {
+  font-size: 28px;
+}
+#team h3 {
+  margin-top: -5px;
+  font-size: 20px;
+}
+#team .team-container {
   position: relative;
   text-align: center;
   color: white;
 }
+
+
 .centered {
   position: absolute;
   top: 65%;
@@ -264,20 +279,8 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
   height: auto;
 }
 
-.eve-box h3 {
-  padding-left: 85px;
-}
-
  
- #team h1, #team h3{
-  text-transform: uppercase;
-  text-align: center;
-}
-#team h1 {
-  color: blue;
-}
 #team h3 {
-  color: #16bfce;
   margin-top: -5px;
   font-size: 20px;
 }
@@ -360,7 +363,7 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
   padding: 0;
 }
 .contact li {
-  padding: 5px;
+  padding: 0;
 }
 .contact li i {
   color: white !important;
@@ -445,14 +448,17 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
   padding: 5px 0px 0px 0px;
 }
 
-.scrollup i {
-    font-size: 40px;
-    padding: 2px 2px;
-    background: #fff;  
+.scrollup {
     position: fixed;
-    bottom: 40px;
-    left: 95%;
-    margin-right: 20px;
+    right: 1rem;
+    bottom: 3.2rem;
+    display: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    color: #fff;
+    background: rgba(90,92,105,.5);
+    line-height: 46px;
 }
 
 @media (max-width: 1020px) {
@@ -552,12 +558,26 @@ ul.nav.navbar-nav.navbar-left li a:focus, ul.nav.navbar-nav.navbar-left li a:act
     margin-top: 35px;
   }
 
-  .footer {
-    font-size: 16px;
-  }
-  .footer-contact-links {
-    margin-top: -25px;
-  }
+.footer {
+    margin: 30px 0px 0px 0px;
+    background: #0d112d;
+    padding: 0px;
+    color: white;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer a i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: white;
+}
+
+
   .scrollup img{
     left: 90%;
   }
@@ -996,3 +1016,47 @@ span.icon-bar {
 .rpwe-aligncenter{display:block;margin-left: auto;margin-right: auto;}
 .rpwe-clearfix:before,.rpwe-clearfix:after{content:"";display:table !important;}
 .rpwe-clearfix:after{clear:both;}.rpwe-clearfix{zoom:1;}
+
+
+
+
+/** Backend Gallery page **/
+
+
+.gallery-container {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.gallery-container a {
+  width: 230px;
+  margin: 20px 10px 0;
+}
+
+.gallery-container a:hover {
+  opacity: 0.8;
+}
+
+.gallery-container a div {
+  width: 100%;
+  height: 235px;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-container a h3 {
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.btn-gallery, .btn-news {
+  padding-top:12px;
+}
